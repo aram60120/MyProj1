@@ -11,6 +11,6 @@ import lombok.Data;
 public class Employee {
 	@Id
 	@GeneratedValue(generator = "increment")
-private Integer eid;
-private String ename;
+private Integer empid;
+private String empName;
 }
